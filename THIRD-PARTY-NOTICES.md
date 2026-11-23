@@ -61,12 +61,19 @@ change them.
 | Florence-2 base ft ([ONNX version](https://huggingface.co/onnx-community/Florence-2-base-ft)) | image captions | MIT | © Microsoft Corporation |
 | OPUS-MT en-it, en-es, en-fr ([ONNX versions](https://huggingface.co/Xenova/opus-mt-en-it)) | caption translation | Apache-2.0 | Language Technology Research Group, University of Helsinki |
 | OPUS-MT en-de ([ONNX version](https://huggingface.co/Xenova/opus-mt-en-de)) | caption translation into German | CC-BY 4.0 | Language Technology Research Group, University of Helsinki |
+| PP-OCRv5 mobile det ([ONNX version](https://huggingface.co/PaddlePaddle/PP-OCRv5_mobile_det_onnx)) and devanagari PP-OCRv5 mobile rec ([ONNX version](https://huggingface.co/PaddlePaddle/devanagari_PP-OCRv5_mobile_rec_onnx)) | reading Hindi (Devanagari) text | Apache-2.0 | © PaddlePaddle Authors |
+| Pix2Text MFR 1.5 ([ONNX version](https://huggingface.co/breezedeus/pix2text-mfr-1.5)) | reading math formulas as LaTeX | MIT | © breezedeus (Pix2Text) |
 
 The ONNX versions were converted and quantized by the onnx-community and
 Xenova projects on Hugging Face, from the original models by Google
 ([google/siglip2-base-patch16-224](https://huggingface.co/google/siglip2-base-patch16-224)),
 Microsoft ([microsoft/Florence-2-base-ft](https://huggingface.co/microsoft/Florence-2-base-ft))
 and the University of Helsinki ([Helsinki-NLP](https://huggingface.co/Helsinki-NLP)).
+The PP-OCRv5 ONNX versions are published by PaddlePaddle itself, from the
+[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) project. The Pix2Text
+MFR ONNX version is published by its author, from the
+[Pix2Text](https://github.com/breezedeus/Pix2Text) project; it is based on
+Microsoft's TrOCR architecture.
 
 The OPUS-MT en-de model is licensed under the Creative Commons Attribution
 4.0 International License: <https://creativecommons.org/licenses/by/4.0/>.
@@ -160,8 +167,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### Apache License 2.0
 
-Applies to LiveMarkdown.Avalonia, LiveMarkdown.Avalonia.Math, SigLIP 2 and
-the OPUS-MT models marked Apache-2.0. Full text: `licenses/Apache-2.0.txt`.
+Applies to LiveMarkdown.Avalonia, LiveMarkdown.Avalonia.Math, SigLIP 2,
+the OPUS-MT models marked Apache-2.0 and the PP-OCRv5 models. Full text: `licenses/Apache-2.0.txt`.
 
 ### SIL Open Font License 1.1
 

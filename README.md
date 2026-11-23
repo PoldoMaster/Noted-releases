@@ -23,6 +23,10 @@ of what you capture never leave it.
   tag it *work*".
 - **Image recognition and captions (optional).** Noted can recognize what
   is in an image and describe it, with models that run on your computer.
+- **Hindi text (optional).** Windows can't read Devanagari: with a small
+  extra model, Noted reads Hindi text in your captures too.
+- **Math formulas (optional).** After a capture, *Read as formula* turns the
+  image of a formula into LaTeX, with a model that runs on your computer.
 - **Plain files.** Notes are Markdown files in a folder you choose, so you
   can back them up, sync them or open them with other programs.
 - **Six languages.** Italian, English, Spanish, French, German and Japanese.
@@ -33,7 +37,8 @@ of what you capture never leave it.
 - About 270 MB of disk space for the app.
 - The optional models need more space: about 380 MB for image recognition
   and about 280 MB for captions, plus 110-140 MB for each caption
-  translation language.
+  translation language, about 13 MB to read Hindi text and about 120 MB to
+  read math formulas.
 
 ## Install
 
@@ -59,7 +64,8 @@ Version and updates**.
 
 ## Optional models
 
-Image recognition and captions use models that Noted does not include.
+Image recognition, captions, Hindi text and math formulas use models that
+Noted does not include.
 Download them from **Settings › Local models**: Noted gets them from
 Hugging Face and then works offline. The models and their licenses are
 listed in `THIRD-PARTY-NOTICES.md`.
